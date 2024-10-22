@@ -4,7 +4,9 @@ Use Android SMS gateway from Dotnet/C# world
 ## Introduction
 This project is a simple example of how to use Android SMS gateway from Dotnet/C# world. It uses a simple HTTP server to receive SMS messages and then sends them to the Android device using the SMS gateway.
 
-# Android devices have built-in SMS rate limits to prevent abuse and protect users from malicious apps sending excessive messages. Here are the key details about Android's SMS rate limits:
+## Built-in limit
+
+Android devices have built-in SMS rate limits to prevent abuse and protect users from malicious apps sending excessive messages. Here are the key details about Android's SMS rate limits:
 
 Default SMS Limits
 - For Android versions 4.1.1 and newer: Maximum of 30 SMS messages every 30 minutes12
