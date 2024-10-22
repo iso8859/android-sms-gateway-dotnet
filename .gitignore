@@ -2,4 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/asgdotnet_lib/.vs/asgdotnet_lib
+**/.vs
+**/obj
+**/bin
