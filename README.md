@@ -2,7 +2,7 @@
 Use Android SMS gateway from Dotnet/C# world
 
 ## Introduction
-This project is a simple example of how to use Android SMS gateway from Dotnet/C# world.
+This project is a simple example on how to use Android SMS gateway from Dotnet/C# world.
 
 ## Built-in limit
 
