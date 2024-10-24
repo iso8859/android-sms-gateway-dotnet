@@ -8,6 +8,7 @@ string? phonePath = @"J:\My Drive\Aux Cousinzins\Communication\telephones.txt";
 CommandLineParser parser = new CommandLineParser();
 
 dbPath = parser.GetString("path", dbPath);
+phonePath = parser.GetString("phone", phonePath);
 
 // Reset the database.
 if (parser.GetBool("reset", false))
@@ -19,6 +20,7 @@ if (parser.GetBool("reset", false))
 // In this bloc we create the database.
 if (parser.GetBool("create", false))
 {
+    // File format is one phone number per line.
     using (StreamReader sr = new StreamReader(phonePath))
     {
         //var login = parser.GetEnv("login", "login");
